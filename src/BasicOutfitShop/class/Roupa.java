@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.javacore.Aintroducaoclasses.classes;
+package BasicOutfitShop.class;
 
 public class Roupa {
     public String tipo;
