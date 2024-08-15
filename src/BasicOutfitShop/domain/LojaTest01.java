@@ -1,6 +1,6 @@
-package academy.devdojo.maratonajava.javacore.Aintroducaoclasses.dominio;
-import academy.devdojo.maratonajava.javacore.Aintroducaoclasses.classes.Cliente;
-import academy.devdojo.maratonajava.javacore.Aintroducaoclasses.classes.Roupa;
+package BasicOutfitShop.domain;
+import BasicOutfitShop.class.Cliente;
+import BasicOutfitShop.class.Roupa;
 import java.util.Scanner;
 import java.util.ArrayList;
 
