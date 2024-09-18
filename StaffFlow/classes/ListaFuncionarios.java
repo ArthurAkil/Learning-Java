@@ -21,7 +21,8 @@ public class ListaFuncionarios {
             System.out.println("Não há nenhum funcionario cadastrado.");
         } else{
             for (int i = 0; i <this.funcionarios.size() ; i++) {
-                System.out.println((i+1)+"º funcionário: "+funcionarios.get(i));
+                System.out.println((i+1) + " º Funcionário:");
+                funcionarios.get(i).infoFuncionario();
             }
         }
     }

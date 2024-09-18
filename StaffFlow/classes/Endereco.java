@@ -58,12 +58,10 @@ public class Endereco {
     }
 
     public void exibirEndereco() {
-        System.out.println("Endereço[" +
-                "numero: '" + numero + '\'' +
-                ", rua: '" + rua + '\'' +
-                ", bairro: '" + bairro + '\'' +
-                ", cidade: '" + cidade + '\'' +
-                ", estadoSigla: '" + estadoSigla + '\'' +
-                ']');
+        System.out.println("Endereço:");
+        System.out.println(casaOuAP + ", " + numero);
+        System.out.println("Rua: " + rua);
+        System.out.println("Bairro: " + bairro);
+        System.out.println("Cidade: " + cidade + " - " + estadoSigla);
     }
 }
